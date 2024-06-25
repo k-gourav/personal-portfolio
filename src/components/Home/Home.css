@@ -1,0 +1,46 @@
+:root {
+    --bg-color: #fcf8f1;
+    --intro-font-color: #905d16;
+    --main-font-color: #1c1c1c;
+    --descript-font-color: #968f7f;
+    --footer-font-color: #24211d;
+    --font-family: "Manrope", sans-serif;
+    --box-shadow-color: #905d1633;
+  }
+.home-section{
+    font-weight: 500;
+    font-size: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+.profile-img{
+    margin-top: 12rem;
+    width: 100px;
+    border-radius: 12px;
+    box-shadow: 0 0 16px var(--box-shadow-color);
+}
+#role{
+    color: var(--intro-font-color);
+}
+.profile-title{
+    width: 65%;
+    letter-spacing: 0.02rem;
+    text-align: center;
+}
+.wavy-underline{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.profile-descript{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 1.375rem;
+    width: 50.6%;
+    letter-spacing: 0.04rem;
+    line-height: 1.6;
+}
